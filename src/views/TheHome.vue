@@ -4,7 +4,7 @@
         <div class="home-left d-flex justify-center flex-column">
             <h1 class="heading-primary pr-2">Enjoy your life on cruiseship</h1>
             <p class="paragraph-1 mt-5">Find the deck plans, data, schedules, and all the goodies about your desired cruiseship here at Cruisegator.</p>
-            <v-btn rounded x-large width="350" height="75" color="#0055B9" class="white--text my-3">Explore Database</v-btn>
+            <v-btn rounded x-large width="350" height="75" color="#0055B9" style="text-transform: none;" class="heading-tertiary-1 white--text my-3">Explore Database</v-btn>
             <v-btn rounded plain width="350" height="75">LEARN MORE
           <v-icon class="material-icons-outlined"> arrow_right_alt</v-icon> 
 </v-btn>
@@ -32,6 +32,8 @@ position: absolute;
 
 height:100%;
 
+overflow: hidden;
+
 
 background: linear-gradient(180deg, #FAFAFA 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
 /* background-color: pink; */
@@ -58,6 +60,6 @@ background: linear-gradient(180deg, #FAFAFA 0%, rgba(255, 255, 255, 0) 100%), #F
 .ship{
     position: relative;
     top: 143px;
-    left: 0px;
+    left: 13px;
 }
 </style>

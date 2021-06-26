@@ -98,6 +98,19 @@ export default {
   font-style: normal;
 }
 
+.heading-tertiary-1 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+.heading-tertiary-2 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .paragraph-1{
    font-family: Public Sans;
   font-weight: 200;
