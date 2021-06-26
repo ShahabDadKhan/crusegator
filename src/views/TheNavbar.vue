@@ -4,7 +4,7 @@
     flat
     class="d-flex align-center"
     style="border-bottom: 1px solid #e5e5e5"
-    height="80px"
+    height="100px"
   >
     <div class="" style="width: 20%">
       <v-img
@@ -23,16 +23,16 @@
         height="37px"
         id="text"
         outlined
-        style="background: brown;"
       >
+      <v-icon class="material-icons-outlined">search</v-icon>
       </v-text-field>
     </div>
 
     <div class="mx-15 h1">
-     <v-btn v-for="names in btn" :key="names" retain-focus-on-click plain class="custom-btn mx-3" >{{ names.name }}</v-btn>
+     <v-btn v-for="names in btn" :key="names" retain-focus-on-click plain class=" custom-btn mx-1">{{ names.name }}</v-btn>
     </div>
 
-    <div>
+    <div class="ml-15">
          <v-avatar>
       <img
         src="../Img/profile.jpg"
@@ -62,7 +62,8 @@ export default {
 }
 </script>
 
-<style >
+<style>
+
 
 .input::v-deep .v-input__slot {
   min-height: 10px !important;
@@ -88,8 +89,32 @@ export default {
     
 } */
 
+.heading-primary {
+  font-family: Public Sans;
+  font-weight: 200;
+  font-size: 80px;
+  line-height: 100px;
+  color: #0055B9;
+  font-style: normal;
+}
+
+.paragraph-1{
+   font-family: Public Sans;
+  font-weight: 200;
+  line-height: 40px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.7);
+  font-style: normal;
+}
+
 .h1{
     font-family:Public Sans;
     font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    /* color:black; */
+
 }
+
+
+
 </style>
