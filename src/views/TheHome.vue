@@ -50,7 +50,7 @@ background: linear-gradient(180deg, #FAFAFA 0%, rgba(255, 255, 255, 0) 100%), #F
 
 .home-right{
     max-width: 55%;
-    max-height: 160%;
+    min-height: 100%;
     margin: 0px;
     /* padding-top: 63px;
  */
@@ -59,7 +59,7 @@ background: linear-gradient(180deg, #FAFAFA 0%, rgba(255, 255, 255, 0) 100%), #F
 
 .ship{
     position: relative;
-    top: 143px;
-    left: 13px;
+    top: 136px;
+    left: 0px;
 }
 </style>
