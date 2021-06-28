@@ -3,10 +3,10 @@
     app
     flat
     class="d-flex align-center"
-    style="border-bottom: 1px solid #e5e5e5"
+    style="border-bottom: 1px solid #e5e5e5; background: #FFFFFF;"
     height="100px"
   >
-    <div class="" style="width: 20%">
+    <div style="width: 20%">
       <v-img
         class="shrink mx-5"
         contain
@@ -29,7 +29,7 @@
     </div>
 
     <div class="mx-15 h1">
-     <v-btn v-for="names in btn" :key="names" retain-focus-on-click plain class=" custom-btn mx-1">{{ names.name }}</v-btn>
+     <v-btn v-for="names in btn" :key="names" retain-focus-on-click plain class="custom-btn mx-1">{{ names.name }}</v-btn>
     </div>
 
     <div class="ml-15">
@@ -64,30 +64,12 @@ export default {
 
 <style>
 
-
-.input::v-deep .v-input__slot {
-  min-height: 10px !important;
-  background: white !important;
+.v-input__slot{
+  background-color: white !important;
 }
-
-/* .v-input::v-deep .v-input__slot {
- color: turquoise;
-} */
-/* 
-#input-22 {
-     font-family:Public Sans;
-    font-weight: 400;
-} */
-
-/* .input{
-  background: tomato;
-} */
-
-
-/* .custom-btn:active{
-    color:red;
-    
-} */
+.v-input__slot fieldset{
+  color: #0055B9;
+}
 
 .heading-primary {
   font-family: Public Sans;
@@ -96,6 +78,13 @@ export default {
   line-height: 100px;
   color: #0055B9;
   font-style: normal;
+}
+
+.heading-secondary-1{
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 
 .heading-tertiary-1 {

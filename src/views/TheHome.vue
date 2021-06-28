@@ -22,6 +22,7 @@
     </v-container>
 </template>
 
+
 <style>
 
 .container-1{
@@ -31,8 +32,6 @@ justify-content: space-between;
 position: absolute;
 
 height:100%;
-
-overflow: hidden;
 
 
 background: linear-gradient(180deg, #FAFAFA 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
@@ -61,5 +60,7 @@ background: linear-gradient(180deg, #FAFAFA 0%, rgba(255, 255, 255, 0) 100%), #F
     position: relative;
     top: 136px;
     left: 0px;
+    right: 0px;
+    bottom: 0px;
 }
 </style>

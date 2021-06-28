@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import TheNavbar from '../views/TheNavbar.vue'
+// import TheInfo from '../views/TheInfo.vue'
+
 // import TheHome from '../views/TheHome.vue'
 
 
@@ -13,9 +15,9 @@ const routes = [
     component: TheNavbar
   },
   // {
-  //   path: '/Home',
-  //   name: 'Home',
-  //   component: TheHome
+  //   path: '/Info',
+  //   name: 'Info',
+  //   component: TheInfo
   // }
 ]
 
