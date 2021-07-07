@@ -11,6 +11,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.2",
     "@mdi/font": "^5.9.55",
     "core-js": "^3.6.5",
+    "material-design-icons": "^3.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuetify": "^2.4.0",
