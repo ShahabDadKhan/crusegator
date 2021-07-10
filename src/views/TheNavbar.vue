@@ -155,6 +155,24 @@ export default {
   font-style: normal;
 }
 
+.paragraph-4 {
+  font-family: Public Sans;
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 22px;
+  color: #e0e0e0;
+  font-style: normal;
+}
+
+.paragraph-5 {
+  font-family: Public Sans;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 30px;
+  color: #e0e0e0;
+  font-style: normal;
+}
+
 .h1 {
   font-family: Public Sans;
   font-weight: 400;
