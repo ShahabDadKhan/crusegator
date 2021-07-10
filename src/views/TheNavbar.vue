@@ -90,6 +90,14 @@ export default {
   font-style: normal;
 }
 
+.heading-primary-2 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: #0055b9 !important;
+  font-style: normal;
+}
 .heading-secondary-1 {
   font-family: Poppins;
   font-weight: 400;
@@ -132,6 +140,15 @@ export default {
 .paragraph-2 {
   font-family: Public Sans;
   font-weight: 200;
+  line-height: 30px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.7);
+  font-style: normal;
+}
+
+.paragraph-3 {
+  font-family: Public Sans;
+  font-weight: 400;
   line-height: 30px;
   font-size: 25px;
   color: rgba(0, 0, 0, 0.7);

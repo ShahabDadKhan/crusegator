@@ -1,5 +1,8 @@
 <template>
-  <div class="d-flex flex-column align-center py-15">
+  <div
+    class="d-flex flex-column align-center py-15"
+    style="background: #f8f9f9"
+  >
     <div
       class="d-flex flex-row align-center my-16"
       style="width: 80%; height: 100%"
